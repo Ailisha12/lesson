@@ -1,4 +1,3 @@
-
 a{
     text-decoration: none;
     color: #000;
@@ -19,8 +18,10 @@ ul{
 }
 
 .header-menu{
+    margin-top: 15px;
+    margin-left: -28px;
     display: flex;
-    gap: 49px;
+    gap: 18px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -29,13 +30,20 @@ ul{
     color: #545454;
 }
 
+.header-menu__position{
+    border-right: 1px solid rgb(236, 232, 232);
+    padding-right: 18px; 
+}
+
 .header-contact{
+    margin-top: 15px;
+    margin-left: 222px;
     display: flex;
-    gap: 49px;
+    gap: 18px;
 }
 
 .header-information{
-    margin-left: 146px;
+    margin-left: 279px;
     display: flex;
     gap: 78px;
 }
@@ -105,7 +113,7 @@ main{
     width: 312px;
     height: 72px;
     left: 417px;
-    top: 154px;
+    top: 195px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -119,7 +127,7 @@ main{
     width: 310px;
     height: 72px;
     left: 417px;
-    top: 235px;
+    top: 269px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -133,7 +141,7 @@ main{
     width: 196px;
     height: 48px;
     left: 417px;
-    top: 349px;
+    top: 367px;
     background: #0000E9;
     border-radius: 5px;
     font-family: 'Rubik';
@@ -166,6 +174,7 @@ main{
     height: 49%;
     margin-top: 40px;
     margin-bottom: 120px;
+    margin-left: 34px;
     display: flex;
     gap: 30px;
     background: #FFFFFF;
@@ -195,6 +204,20 @@ main{
     color: rgba(186, 186, 186, 0.2);
 }
 
+.start-sales__steps-text-one{
+    position: absolute;
+    width: 392px;
+    height: 48px;
+    left: 629px;
+    top: 1855px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D2D2D;
+}
+
 .start-sales__steps-number-two{
     position: absolute;
     width: 192px;
@@ -209,34 +232,6 @@ main{
     color: rgba(186, 186, 186, 0.2);
 }
 
-.start-sales__steps-number-three{
-    position: absolute;
-    width: 194px;
-    height: 178px;
-    left: 544px;
-    top: 2000px;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 150px;
-    line-height: 178px;
-    color: rgba(186, 186, 186, 0.2);
-}
-
-.start-sales__steps-text-one{
-    position: absolute;
-    width: 392px;
-    height: 48px;
-    left: 629px;
-    top: 1812px;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #2D2D2D;
-}
-
 .start-sales__steps-text-two{
     position: absolute;
     width: 392px;
@@ -249,6 +244,21 @@ main{
     font-size: 16px;
     line-height: 24px;
     color: #2D2D2D;
+}
+
+
+.start-sales__steps-number-three{
+    position: absolute;
+    width: 194px;
+    height: 178px;
+    left: 544px;
+    top: 2000px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 150px;
+    line-height: 178px;
+    color: rgba(186, 186, 186, 0.2);
 }
 
 .start-sales__steps-text-three{
@@ -312,7 +322,6 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
     color: #2D2D2D;
 }
 
