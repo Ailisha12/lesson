@@ -42,6 +42,12 @@ ul{
     gap: 18px;
 }
 
+.header-hat{
+    height: 86px;
+    padding-top: 12px;
+    background-color: #F0F0F0;
+}
+
 .header-information{
     margin-left: 279px;
     display: flex;
@@ -100,8 +106,7 @@ ul{
 }
 
 main{
-    margin-top: 10px;
-    margin-bottom: 20%;
+    background-color: #F4F4F4;
 }
 
 .bread_crumbs{
@@ -113,7 +118,7 @@ main{
     width: 312px;
     height: 72px;
     left: 417px;
-    top: 195px;
+    top: 222px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -127,7 +132,7 @@ main{
     width: 310px;
     height: 72px;
     left: 417px;
-    top: 269px;
+    top: 302px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -141,9 +146,10 @@ main{
     width: 196px;
     height: 48px;
     left: 417px;
-    top: 367px;
+    top: 398px;
     background: #0000E9;
     border-radius: 5px;
+    border-color: #0000E9;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -191,6 +197,7 @@ main{
     height: 493px ;
 }
 
+
 .start-sales__steps-number-one{
     position: absolute;
     width: 194px;
@@ -209,7 +216,7 @@ main{
     width: 392px;
     height: 48px;
     left: 629px;
-    top: 1855px;
+    top: 1885px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -237,7 +244,7 @@ main{
     width: 392px;
     height: 48px;
     left: 1058px;
-    top: 1955px;
+    top: 1992px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -245,7 +252,6 @@ main{
     line-height: 24px;
     color: #2D2D2D;
 }
-
 
 .start-sales__steps-number-three{
     position: absolute;
@@ -266,7 +272,7 @@ main{
     width: 376px;
     height: 48px;
     left: 642px;
-    top: 2059px;
+    top: 2101px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -280,6 +286,7 @@ width: 196px;
 height: 48px;
 background: #0000E9;
 border-radius: 5px;
+border-color: #0000E9;
 margin-top: 448px;
 font-family: 'Rubik';
 font-style: normal;
@@ -293,12 +300,18 @@ color: #FFFFFF;
 .bg-grey{
     margin-top: 115px;
     margin-bottom: 149px;
-    background-color: #E1E1E1;
+    background-color: #F0F0F0;
 }
 
 .main-information{
-    margin-top: 105px;
-    margin-bottom: 105px;
+    padding: 46px;
+}
+
+hr {
+    border: none;
+    background-color: #F5F5F5;
+    color: #F5F5F5;
+    height: 2px;
 }
 
 .main-information__data{
@@ -317,7 +330,6 @@ color: #FFFFFF;
 }
 
 .main-information__data-text{
-    text-decoration: overline;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -330,7 +342,7 @@ color: #FFFFFF;
 }
 
 .become-supplier__form{
-    margin-top: 61px;
+    padding: 46px;
 }
 
 .become-supplier__form-header{
@@ -368,6 +380,11 @@ color: #FFFFFF;
     color: #898888;
 }
 
+footer{
+    padding-top: 237px;
+    background-color: #F4F4F4;
+}
+
 .footer-logo{
     text-align: center;
     margin-bottom: 20px;
@@ -401,6 +418,7 @@ color: #FFFFFF;
 }
 
 .footer-menu{
+    margin-left: -77px;
     display: flex;
     gap: 104px;
     font-family: 'Roboto';
@@ -411,9 +429,11 @@ color: #FFFFFF;
 }
 
 .footer-navigation{
+    margin-left: -34px;
     margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
+    gap: 52px;
 }
 
 .footer-navigation__item-title{
