@@ -32,7 +32,7 @@ ul{
 
 .header-menu__position{
     border-right: 1px solid rgb(236, 232, 232);
-    padding-right: 18px; 
+    padding-right: 18px;
 }
 
 .header-contact{
@@ -44,20 +44,29 @@ ul{
 
 .header-hat{
     height: 86px;
-    padding-top: 12px;
     background-color: #F0F0F0;
 }
 
+.header-label{
+    padding-top: 12px;
+}
+
 .header-information{
-    margin-left: 279px;
+    margin-left: 141px;
     display: flex;
     gap: 78px;
 }
 
 .header-information__text{
+    padding-top: 12px;
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.header-line{
+    height: 86px;
+    border-left: 1px solid #ffffff;
 }
 
 .header-information__text-market{
@@ -113,12 +122,15 @@ main{
     margin-bottom: 25px;
 }
 
+.poster{
+    position: relative;
+}
+
 .poster__header{
     position: absolute;
     width: 312px;
-    height: 72px;
-    left: 417px;
-    top: 222px;
+    left: 105px;
+    top: 41px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -130,9 +142,8 @@ main{
 .poster__text{
     position: absolute;
     width: 310px;
-    height: 72px;
-    left: 417px;
-    top: 302px;
+    left: 105px;
+    top: 124px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -144,9 +155,8 @@ main{
 .poster__button{
     position: absolute;
     width: 196px;
-    height: 48px;
-    left: 417px;
-    top: 398px;
+    left: 105px;
+    top: 218px;
     background: #0000E9;
     border-radius: 5px;
     border-color: #0000E9;
@@ -194,15 +204,13 @@ main{
 }
 
 .start-sales{
-    height: 493px ;
+    height: 493px;
+    position: relative;
 }
 
 
 .start-sales__steps-number-one{
     position: absolute;
-    width: 194px;
-    height: 178px;
-    left: 544px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -214,9 +222,8 @@ main{
 .start-sales__steps-text-one{
     position: absolute;
     width: 392px;
-    height: 48px;
-    left: 629px;
-    top: 1885px;
+    left: 317px;
+    top: 141px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -227,10 +234,8 @@ main{
 
 .start-sales__steps-number-two{
     position: absolute;
-    width: 192px;
-    height: 178px;
-    left: 960px;
-    top: 1875px;
+    left: 650px;
+    top: 200px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -241,10 +246,9 @@ main{
 
 .start-sales__steps-text-two{
     position: absolute;
-    width: 392px;
-    height: 48px;
-    left: 1058px;
-    top: 1992px;
+    width: 200px;
+    left: 752px;
+    top: 297px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -255,10 +259,7 @@ main{
 
 .start-sales__steps-number-three{
     position: absolute;
-    width: 194px;
-    height: 178px;
-    left: 544px;
-    top: 2000px;
+    top: 349px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -269,10 +270,9 @@ main{
 
 .start-sales__steps-text-three{
     position: absolute;
-    width: 376px;
-    height: 48px;
-    left: 642px;
-    top: 2101px;
+    width: 251px;
+    left: 317px;
+    top: 443px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -282,19 +282,19 @@ main{
 }
 
 .start-sales__steps-button{
-width: 196px;
-height: 48px;
-background: #0000E9;
-border-radius: 5px;
-border-color: #0000E9;
-margin-top: 448px;
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #FFFFFF;
+    width: 196px;
+    height: 48px;
+    background: #0000E9;
+    border-radius: 5px;
+    border-color: #0000E9;
+    margin-top: 490px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .bg-grey{
@@ -307,11 +307,11 @@ color: #FFFFFF;
     padding: 46px;
 }
 
-hr {
-    border: none;
-    background-color: #F5F5F5;
-    color: #F5F5F5;
-    height: 2px;
+.line{
+    margin-left: 42px;
+    padding-bottom: 24px;
+    width: 307px;
+    border-top: 1px solid #a2abaf;
 }
 
 .main-information__data{
