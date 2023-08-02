@@ -186,11 +186,10 @@ main{
 }
 
 .scheme__block{
-    width: 73%;
-    height: 49%;
+    width: 90%;
+    height: 52%;
     margin-top: 40px;
     margin-bottom: 120px;
-    margin-left: 34px;
     display: flex;
     gap: 30px;
     background: #FFFFFF;
@@ -201,6 +200,32 @@ main{
 
 .scheme__block-text{
     padding: 35px;
+}
+
+.scheme__block-text__header{
+    width: 184px;
+    margin-left: 68px;
+}
+
+.scheme__block-text__header-center{
+    width: 285px;
+    margin-left: 15px;
+}
+
+.scheme__block-text__description-one{
+    width: 218px;
+    margin-left: 50px;
+}
+
+
+.scheme__block-text__description-two{
+    width: 258px;
+    margin-left: 29px;
+}
+
+.scheme__block-text__description-three{
+    width: 158px;
+    margin-left: 80px;
 }
 
 .start-sales{
@@ -314,6 +339,12 @@ main{
     border-top: 1px solid #a2abaf;
 }
 
+.main-information__name{
+    width: 485px;
+    margin-left: 354px;
+    text-align: center;
+}
+
 .main-information__data{
     display: flex;
     text-align: center;
@@ -385,19 +416,23 @@ footer{
     background-color: #F4F4F4;
 }
 
-.footer-logo{
+.footer-block{
+ padding-top: 35px;
+}
+
+.footer-block__logo{
     text-align: center;
     margin-bottom: 20px;
 }
 
-.footer-contact{
+.footer-block__contact{
     margin-left: 123px;
     width: 58%;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.footer-contact__tel{
+.footer-block__contact-tel{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -407,7 +442,7 @@ footer{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.footer-information{
+.footer-block__information{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -417,7 +452,7 @@ footer{
     color: #9F9F9F;
 }
 
-.footer-menu{
+.footer-block__menu{
     margin-left: -77px;
     display: flex;
     gap: 104px;
@@ -428,7 +463,7 @@ footer{
     line-height: 19px;color: #656565;
 }
 
-.footer-navigation{
+.footer-block__navigation{
     margin-left: -34px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -436,7 +471,7 @@ footer{
     gap: 52px;
 }
 
-.footer-navigation__item-title{
+.footer-block__navigation-item-title{
     margin-left: 31px;
     font-family: 'Roboto';
     font-style: normal;
@@ -446,7 +481,7 @@ footer{
     color: #656565;
 }
 
-.footer-navigation__item-list{
+.footer-block__navigation-item-list{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -455,7 +490,7 @@ footer{
     color: #656565;
 }
 
-.footer__text{
+.footer-block__text{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
