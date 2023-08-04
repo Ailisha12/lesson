@@ -54,9 +54,9 @@ ul{
 }
 
 .header-information{
-    margin-left: 141px;
+    margin-left: 228px;
     display: flex;
-    gap: 78px;
+    gap: 42px;
 }
 
 .header-information__text{
@@ -395,7 +395,7 @@ main{
 }
 
 .become-supplier__form{
-    margin-bottom: 559px;
+    margin-bottom: 160px;
     padding: 46px;
 }
 
@@ -419,6 +419,7 @@ main{
 }
 
 .become-supplier__form-control{
+    padding-left: 10px;
     width: 496px;
     height: 46px;
     margin-bottom: 15px;
