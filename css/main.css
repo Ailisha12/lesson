@@ -18,7 +18,8 @@ ul{
 }
 
 .header-menu{
-    margin-top: 15px;
+    margin-top: 19px;
+    margin-bottom: 18px;
     margin-left: -28px;
     display: flex;
     gap: 18px;
@@ -36,19 +37,20 @@ ul{
 }
 
 .header-contact{
-    margin-top: 15px;
+    margin-top: 19px;
+    margin-bottom: 18px;
     margin-left: 222px;
     display: flex;
     gap: 18px;
 }
 
 .header-hat{
-    height: 86px;
     background-color: #F0F0F0;
 }
 
 .header-label{
-    padding-top: 12px;
+    padding-top: 23px;
+    padding-bottom: 22px;
 }
 
 .header-information{
@@ -58,7 +60,8 @@ ul{
 }
 
 .header-information__text{
-    padding-top: 12px;
+    padding-top: 23px;
+    padding-bottom: 22px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -119,11 +122,13 @@ main{
 }
 
 .bread_crumbs{
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 29px;
 }
 
 .poster{
     position: relative;
+    margin-bottom: 112px;
 }
 
 .poster__header{
@@ -170,13 +175,12 @@ main{
 }
 
 .about-us{
+    margin-bottom: 155px;
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .about-us__text{
-    margin-top: 97px;
+    margin-top: 115px;
     padding-right: 64px;
 }
 
@@ -229,7 +233,8 @@ main{
 }
 
 .start-sales{
-    height: 493px;
+    margin-top: 160px;
+    margin-bottom: 147px;
     position: relative;
 }
 
@@ -323,8 +328,8 @@ main{
 }
 
 .bg-grey{
-    margin-top: 115px;
-    margin-bottom: 149px;
+    margin-bottom: 180px;
+    padding-top: 34px;
     background-color: #F0F0F0;
 }
 
@@ -373,6 +378,7 @@ main{
 }
 
 .become-supplier__form{
+    margin-bottom: 559px;
     padding: 46px;
 }
 
@@ -417,7 +423,7 @@ footer{
 }
 
 .footer-block{
- padding-top: 35px;
+ padding-top: 98px;
 }
 
 .footer-block__logo{
