@@ -20,7 +20,6 @@ ul{
 .header-menu{
     margin-top: 19px;
     margin-bottom: 18px;
-    margin-left: -28px;
     display: flex;
     gap: 18px;
     font-family: 'Roboto';
@@ -50,6 +49,7 @@ ul{
 
 .header-label{
     padding-top: 23px;
+    padding-left: 33px;
     padding-bottom: 22px;
 }
 
@@ -124,6 +124,12 @@ main{
 .bread_crumbs{
     margin-top: 30px;
     margin-bottom: 29px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #898888;
 }
 
 .poster{
@@ -160,6 +166,7 @@ main{
 .poster__button{
     position: absolute;
     width: 196px;
+    height: 47px;
     left: 105px;
     top: 218px;
     background: #0000E9;
@@ -341,7 +348,7 @@ main{
     margin-left: 42px;
     padding-bottom: 24px;
     width: 307px;
-    border-top: 1px solid #a2abaf;
+    border-top: 2px solid #d3d5d6;
 }
 
 .main-information__name{
@@ -366,6 +373,16 @@ main{
 }
 
 .main-information__data-text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2D2D2D;
+}
+
+.main-information__data-text__center{
+    width: 259px;
+    margin-left: 65px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
